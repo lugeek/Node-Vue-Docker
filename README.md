@@ -9,7 +9,7 @@ Use in local:
 2. ```in /vue-ui``` run ```npm run serve```, see```http://localhost:8080```
 
 Use for docker:  
-1. ```in /``` run ```docker-compose build --no-cache``` tu build image by ```Dockerfile```.
+1. ```in /``` run ```docker-compose build --no-cache``` to build image by ```Dockerfile```.
 2. ```docker-compose up``` to run container. see```http://localhost:8080```
 
 keys:  
