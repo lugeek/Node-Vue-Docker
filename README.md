@@ -119,3 +119,11 @@ tips:
         // 停止
         docker stop vue-ui-container
         ```
+    3. .dockerignore 文件
+
+        在 Dockerfile 的同一个文件夹中创建一个 .dockerignore 文件，带有以下内容：
+        ```
+        node_modules
+        npm-debug.log
+        ```
+        这将避免你的本地模块以及调试日志被拷贝进入到你的 Docker 镜像中，以至于把你镜像原有安装的模块给覆盖了。
